@@ -45,6 +45,7 @@
     "dotenv": "^9.0.2",
     "express": "^4.17.1",
     "express-bearer-token": "^2.4.0",
+    "express-swagger-generator": "^1.1.17",
     "jsonwebtoken": "^8.5.1",
     "mongodb": "^3.6.6",
     "reflect-metadata": "^0.1.13",
