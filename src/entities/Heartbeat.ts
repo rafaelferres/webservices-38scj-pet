@@ -5,12 +5,12 @@ export class Heartbeat {
   @ObjectIdColumn()
   id: number
 
-  @Column()
+  @Column('string')
   pet: string
 
-  @Column()
+  @Column('number')
   bpm: number
 
-  @Column()
+  @Column('timestamp')
   time: Date
 }

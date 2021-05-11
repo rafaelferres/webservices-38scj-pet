@@ -5,9 +5,9 @@ export class Pets {
   @ObjectIdColumn()
   id: number
 
-  @Column()
+  @Column('string')
   name: string
 
-  @Column()
+  @Column('string')
   user: string
 }

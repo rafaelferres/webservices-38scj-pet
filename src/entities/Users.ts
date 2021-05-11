@@ -5,12 +5,12 @@ export class Users {
   @ObjectIdColumn()
   id: number
 
-  @Column()
+  @Column('string')
   username: string
 
-  @Column()
+  @Column('string')
   password: string
 
-  @Column()
+  @Column('string')
   email: string
 }

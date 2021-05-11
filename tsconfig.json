@@ -27,9 +27,10 @@
             "@entities/*": ["./src/entities/*"],
             "@repositories/*": ["./src/repositories/*"],
             "@providers/*": ["./src/providers/*"],
-            "@useCases/*": ["./src/useCases/*"]
+            "@useCases/*": ["./src/useCases/*"],
+            "@events/*": ["./src/events/*"]
         }
     },
     "include": ["src"],
     "exclude": ["node_modules", "__tests__"]
-}
+ }
