@@ -5,6 +5,6 @@ import dotenv from 'dotenv'
 dotenv.config()
 
 createConnection().then(async () => {
-  app.listen(8080 || process.env.PORT)
+  app.listen(process.env.PORT || 8080)
   console.log('Running')
 })
